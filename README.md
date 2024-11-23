@@ -6,7 +6,7 @@
 
 Create a simple python application containerized with a dockerfile. The goal here is to both demonstrate running your application within a docker container (using docker run terminal commands) but to also build a docker image in your CI/CD pipeline which will be pushed to Docker Hub or other container management service.
 
-# Application
+## Application
 
 A simple shopping list application built with Flask and containerized with Docker.
 
@@ -23,11 +23,9 @@ A simple shopping list application built with Flask and containerized with Docke
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/wenyeli/shopping-list-app.git
-cd shopping-list-app
+git clone https://github.com/nogibjj/Wenye_Li_Mini_Project_12.git
+cd Wenye_Li_Mini_Project_12
 ```
-
-````
 
 2. Create and activate virtual environment:
 
@@ -105,4 +103,3 @@ docker pull wenyeli/shopping-list-app:latest
 - `make stop`: Stop container
 - `make clean`: Clean up resources
 - `make check-port`: Check port usage
-````
